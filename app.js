@@ -61,7 +61,6 @@ function deleteTodo(e) {
     console.log(todo);
   }
 }
-
 function filterTodo(e) {
   const todos = todoList.childNodes;
   todos.forEach(function(todo) {
@@ -139,3 +138,5 @@ function getTodos() {
     todoList.appendChild(todoDiv);
   });
 }
+
+
